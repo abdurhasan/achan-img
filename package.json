@@ -1,28 +1,25 @@
 {
-  "name": "nodejs-prod",
+  "name": "achan-img",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "rm -rf dist && webpack --mode development",
-    "prestart": "npm run build",
-    "start": "node ./dist/server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "fastify": "^2.7.1",
     "redis": "^2.8.0"
   },
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "babel-loader": "^8.0.6",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7",
-    "webpack-node-externals": "^1.7.2"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdurhasan/achan-img.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdurhasan/achan-img/issues"
+  },
+  "homepage": "https://github.com/abdurhasan/achan-img#readme",
+  "description": ""
 }
