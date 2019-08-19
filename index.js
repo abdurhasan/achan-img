@@ -1,5 +1,5 @@
 const redis = require('redis');
-const client = redis.createClient();
+const client = redis.createClient(6379,'52.221.198.120');
 const port = process.env.PORT || 3000;
 const fastify = require('fastify')({
     logger: true
